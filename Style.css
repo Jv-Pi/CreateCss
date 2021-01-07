@@ -312,4 +312,5 @@ section video {
     border: none;
     border-radius: 58vh;
     display: none;
+    cursor: pointer;
 }
