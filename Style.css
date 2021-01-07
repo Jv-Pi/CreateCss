@@ -114,7 +114,7 @@ header .logo {
     position: relative;
     width: 60px;
     height: 60px;
-    background: url(/Index of/Social/Menu/menu.png);
+    background: url(/Index of/Menu/menu.png);
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
@@ -122,7 +122,7 @@ header .logo {
 }
 
 .toggle.active {
-    background: url(/Index of/Social/Menu/close.png);
+    background: url(/Index of/Menu/close.png);
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
