@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Pagina</title>
+    <!-- Usando Paralax e menu interativo -->
+    <!-- Required meta tags -->
+    <script src="jquery-2.1.4.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="#sec2" onclick="toggleMenu();">Home</a>
+            </li>
+            <li>
+                <a href="#" onclick="toggleMenu();">Dreams</a>
+            </li>
+            <li>
+                <a href="#" onclick="toggleMenu();">About</a>
+            </li>
+            <li>
+                <a href="#" onclick="toggleMenu();">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <section class="banner" id="banner">
+        <header>
+            <h2 class="logo">Your Dream</h2>
+            <div class="toggle" onclick="toggleMenu();">
+            </div>
+        </header>
+        <video src="/PaginaFoda/Social/Midia Mp4/MulherAndando.mp4" muted loop autoplay></video>
+        <div class="overplay"></div>
+        <div class="text">
+            <h2>Be Strong</h2>
+            <h3>Never give up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, necessitatibus et. Animi nihil atque nisi quae autem. Illo at, omnis officia veritatis quos itaque beatae eligendi ipsam! Natus, debitis itaque!</p>
+            <a href="#">Join us</a>
+        </div>
+        <ul class="sci">
+            <li>
+                <a href="#">
+                    <img class="social" src="/PaginaFoda/Social/Social Midia/facebook.png" alt="Facebook">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="social" src="/PaginaFoda/Social/Social Midia/twitter.png" alt="Twitter">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img class="social" src="/PaginaFoda/Social/Social Midia/instagram.png" alt="Instagram">
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="banner" id="sec2">
+        <video src="/PaginaFoda/Social/Midia Mp4/fumaca.mp4" muted loop autoplay></video>
+        <div class="overplay"></div>
+        <div class="text2">
+            <h2>Innovate</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, necessitatibus et. Animi nihil atque nisi quae autem. Illo at, omnis officia veritatis quos itaque beatae eligendi ipsam! Natus, debitis itaque!</p>
+        </div>
+    </section>
+    <button id="btntop" onclick="up();"><i class="fas fa-chevron-up"></i></button>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script src="JavaScript.js"></script>
+
+</body>
+
+</html>
